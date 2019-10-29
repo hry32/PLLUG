@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\PLLUG_Projects\Converter_Arabic_to_Roman\bin\Debug\Converter_Arabic_to_Roman.exe.config
+C:\Users\Admin\source\repos\PLLUG_Projects\Converter_Arabic_to_Roman\bin\Debug\Converter_Arabic_to_Roman.exe
+C:\Users\Admin\source\repos\PLLUG_Projects\Converter_Arabic_to_Roman\bin\Debug\Converter_Arabic_to_Roman.pdb
+C:\Users\Admin\source\repos\PLLUG_Projects\Converter_Arabic_to_Roman\obj\Debug\Converter_Arabic_to_Roman.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\PLLUG_Projects\Converter_Arabic_to_Roman\obj\Debug\Converter_Arabic_to_Roman.exe
+C:\Users\Admin\source\repos\PLLUG_Projects\Converter_Arabic_to_Roman\obj\Debug\Converter_Arabic_to_Roman.pdb
+C:\Users\Admin\source\repos\PLLUG_Projects\Converter_Arabic_to_Roman\obj\Debug\Converter_Arabic_to_Roman.csprojResolveAssemblyReference.cache
