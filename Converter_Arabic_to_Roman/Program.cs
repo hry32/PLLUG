@@ -29,6 +29,11 @@ namespace Converter_Arabic_to_Roman
             {
                 Console.Write("Input arabic numeral: ");
                 int inputValue = Convert.ToInt32(Console.ReadLine());
+                if (inputValue <= 0)
+                {
+                    Console.Write("You input incorrect numeric, repeat!\n");
+                    return (InputValue());
+                }
                 return inputValue;
             }
             catch
