@@ -10,11 +10,15 @@ namespace Converter_Arabic_to_Roman
     {
         static void Main(string[] args)
         {
-            Array_Numerals array_Numerals = new Array_Numerals();
-            int value = array_Numerals.InputValue();
-            array_Numerals.DividedOnDigital(value);
-            array_Numerals.Converter();
-            Console.ReadKey();
+            Console.WriteLine("If you want exit, press: 0");
+            do
+           {
+                Array_Numerals array_Numerals = new Array_Numerals();         
+                int value = array_Numerals.InputValue();
+                array_Numerals.DividedOnDigital(value);
+                array_Numerals.Converter();
+            } while (true);
+           
         }
     }
     class Array_Numerals
@@ -28,21 +32,26 @@ namespace Converter_Arabic_to_Roman
             try
             {
                 Console.Write("Input arabic numeral: ");
-                int inputValue = Convert.ToInt32(Console.ReadLine());
-                if (inputValue <= 0)
+                int intValue = Convert.ToInt32(Console.ReadLine());
+                if (intValue < 0)
                 {
                     Console.Write("You input incorrect numeric, repeat!\n");
+                    Console.WriteLine("********************");
                     return (InputValue());
                 }
-                return inputValue;
+                else if (intValue == 0)
+                {
+                    Environment.Exit(1);
+                }
+                 return intValue;
             }
             catch
             {
                 Console.Write("You input incorrect numeric, repeat!\n");
+                Console.WriteLine("********************");
                 return (InputValue());
             }
-        }
-      
+        }      
         public void DividedOnDigital(int inputValue)
         {
             foreach (int n in arrayArabic)
@@ -70,6 +79,9 @@ namespace Converter_Arabic_to_Roman
                 elementR = arrayRoman[indexA];
                 Console.Write(elementR);
             }
+            Console.WriteLine("\n********************");
         }        
+
+             
     }
 }
