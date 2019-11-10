@@ -145,7 +145,19 @@ namespace Rational_numbers
 
         public override string ToString()
         {
-            return Numerator+"r"+Denominator;
+            if (Numerator == 0 )
+            {
+                return Convert.ToString(Numerator);
+            }
+            else if (Denominator == 0)
+            {
+                return Convert.ToString(Denominator);
+            }
+            else
+            {
+                return Numerator + "r" + Denominator;
+            }
+            
         }
             
     }
