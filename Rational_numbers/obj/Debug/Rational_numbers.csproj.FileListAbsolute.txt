@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\PLLUG_Projects\Rational_numbers\bin\Debug\Rational_numbers.exe.config
+C:\Users\Admin\source\repos\PLLUG_Projects\Rational_numbers\bin\Debug\Rational_numbers.exe
+C:\Users\Admin\source\repos\PLLUG_Projects\Rational_numbers\bin\Debug\Rational_numbers.pdb
+C:\Users\Admin\source\repos\PLLUG_Projects\Rational_numbers\obj\Debug\Rational_numbers.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\PLLUG_Projects\Rational_numbers\obj\Debug\Rational_numbers.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\PLLUG_Projects\Rational_numbers\obj\Debug\Rational_numbers.exe
+C:\Users\Admin\source\repos\PLLUG_Projects\Rational_numbers\obj\Debug\Rational_numbers.pdb
